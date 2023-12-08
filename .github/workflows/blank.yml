@@ -24,9 +24,9 @@ jobs:
       # Runs a single command using the runners shell
       - name: Commits go brrrr
         run: |
-            sed 's/CRAZY/lame/' insane-code.py
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git config user.name "github-actions[bot]"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git config user.email "jacobjamessimon@gmail.com"
+            git config user.name "jacobjamessimon"
             git commit -am "Lame commit"
             sed 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
