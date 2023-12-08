@@ -34,5 +34,45 @@ jobs:
             git commit -am "Lame commit"
             sed -i 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
+            sed -i 's/CRAZY/lame/' insane-code.py 
+            git commit -am "Lame commit"
+            sed -i 's/lame/CRAZY/' insane-code.py
+            git commit -am "CRAZY commit"
             
             git push 
