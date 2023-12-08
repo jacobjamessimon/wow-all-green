@@ -26,11 +26,13 @@ jobs:
         env:
           GIT_TOKEN: ${{ secrets.jacob_git_token }}
         run: |
-            sed -i 's/CRAZY/lame/' insane-code.py 
             git config user.email "jacobjamessimon@gmail.com"
             git config user.name "jacobjamessimon"
+            git remote set-url origin https://jacob_git_token:"$GIT_TOKEN"@github.com/jacobjamessimon/wow-all-green.git
+
+            sed -i 's/CRAZY/lame/' insane-code.py 
             git commit -am "Lame commit"
             sed -i 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
             
-            git push https://jacob_git_token:"$GIT_TOKEN"@github.com/jacobjamessimon/wow-all-green.git
+            git push 
