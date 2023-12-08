@@ -28,7 +28,7 @@ jobs:
             git config user.email "jacobjamessimon@gmail.com"
             git config user.name "jacobjamessimon"
             git commit -am "Lame commit"
-            sed 's/lame/CRAZY/' insane-code.py
+            sed -i 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
             git push
              
