@@ -23,6 +23,8 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Commits go brrrr
+        env:
+          GIT_TOKEN: ${{ secrets.jacob_git_token }}
         run: |
             sed -i 's/CRAZY/lame/' insane-code.py 
             git config user.email "jacobjamessimon@gmail.com"
@@ -30,5 +32,7 @@ jobs:
             git commit -am "Lame commit"
             sed -i 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
+            
+            git remote set-url origin https://jacobjamessimon:"$GIT_TOKEN"@github.com/jacobjamessimon/wow-all-green.git
             git push
              
