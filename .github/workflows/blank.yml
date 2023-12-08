@@ -33,6 +33,4 @@ jobs:
             sed -i 's/lame/CRAZY/' insane-code.py
             git commit -am "CRAZY commit"
             
-            git remote set-url origin https://jacobjamessimon:"$GIT_TOKEN"@github.com/jacobjamessimon/wow-all-green.git
-            git push
-             
+            git push https://jacobjamessimon:"$GIT_TOKEN"@github.com/jacobjamessimon/wow-all-green.git
