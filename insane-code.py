@@ -1,1 +1,1 @@
-print("Hello CRAZY COMMIT HISTORY")
+print("Hello lame COMMIT HISTORY")
